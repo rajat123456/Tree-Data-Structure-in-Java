@@ -1,4 +1,4 @@
-// PREORDER Traversal of a Binary Tree(Always we get Sorted List of Elements as Output)
+// PREORDER Traversal of a Binary Tree
 
 package Trees;
 
