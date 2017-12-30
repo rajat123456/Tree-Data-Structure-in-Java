@@ -44,7 +44,10 @@ class AllInOne
   	
   			if(root.left==null||root.right==null)
   			{
+				//if any Left_Subtree or Right_Subtree is null, then it's a non full node
   				nfn++;
+				
+				//this below return is for counting total no of nodes in tree
   				return 1+allinone(root.left)+allinone(root.right);
   			}
   			else
